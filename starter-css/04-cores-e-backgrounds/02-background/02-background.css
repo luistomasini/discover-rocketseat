@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+main {
+    height: 1000px;
+    color: purple;
+    padding: 8px;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://avatars.githubusercontent.com/u/28929274?s=280&v=4);
+    
+    
+    background-repeat: no-repeat;
+
+/* Values */
+    /*
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-repeat: space;
+    background-repeat: round;
+    background-repeat: no-repeat;
+    */
+
+/* Podedmos usar 2 valores: horizontal | vertical */
+    /*
+    background-repeat: repeat space;
+    background-repeat: repeat repeat;
+    background-repeat: round space;
+    background-repeat: no-repeat round;
+    */
+    
+    background-position: center;
+
+/* Pricipais valores */
+    /*
+    background-position: top;
+    background-position: bottom;
+    background-position: left;
+    background-position: right;
+    background-position: center;
+    */ 
+
+    background-size: contain;
+
+/* Values */
+    /*
+    background-size: cover;
+    background-size: contain;
+    */
+
+/* Podemos usar 2 valores, o primeiro é para a largura da imagem e o segundo é para a altura */
+    /*
+    background-size: 40% auto;
+    background-size: 2em 25%;
+    background-size: auto 8px;
+    background-size: auto auto;
+    */
+
+    background-origin: content-box;
+
+/* 
+A propriedade background-origin é quem define o ponto de origem de uma imagem específica.
+    --Principais valores--
+    background-origin: border-box;
+    background-origin: padding-box;
+    background-origin: content-box;
+*/
+
+    background-clip: content-box;
+
+/* O background-clip define se a cor ou imagem do background iniciam debaixo de sua área de borda, preenchimento ou conteúdo.
+    --Principais valores--
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box;
+    background-clip: text;
+*/
+
+    background-attachment: fixed;
+
+/* A propriedade background-attachment determina se a posição da imagem vai ser fixa ou se vai rolar junto com o conteúdo.
+    --Principais valores--
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-attachment: local;
+*/
+
+    background: rgb(55, 100, 50) url(https://avatars.githubusercontent.com/u/28929274?s=280&v=4) no-repeat right top / 50px border-box content-box fixed;
+
+/* Podemos usar o shorthand background para definir todos os valores do background. Após dois valores utilizar / (barra) */
+
+    background: radial-gradient(rgba(255,255,255,0), rgba(255, 0, 0, 0.2));
+
+/* linear-gradient() é a função usada para criar gradient linear com o CSS.
+
+    background: linear-gradient(45deg, red, yellow)
+
+radial-gradient() é a função usada para criar gradient circular.
+
+    background: radial-gradient(green, red, yellow)
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.2))
+*/
+
+    background: radial-gradient(rgba(255,255,255,0), rgba(255, 0, 0, 0.2)), url(https://avatars.githubusercontent.com/u/28929274?s=280&v=4) no-repeat right top / 50px border-box content-box fixed;
+}
+
+/* header {
+    height: 400px;
+    border: 7px dashed red;
+    padding: 16px;
+} */
