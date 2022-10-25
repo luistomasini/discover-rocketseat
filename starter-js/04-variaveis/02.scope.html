@@ -1,0 +1,53 @@
+<script>
+
+// var é global e, também local
+// Hoisting (elevação), ele está jogando a var como undefined pra cima, já que lê na verticial, e depois atirbui o valor 0;
+
+
+console.log('> existe x antes do bloco?', x)
+
+{
+    var x = 0
+}
+
+console.log('> existe x depois do bloco?', x)
+
+
+
+
+
+
+
+
+
+// const e let são locais e só funcionam no escope onde foram criadas
+
+let y = 1;
+
+{
+    y = 0
+    console.log('> existe y', y)
+    // só funciona depois que foi declarado
+}
+
+console.log('> existe y depois do bloco?', y)
+
+
+
+
+
+
+
+
+
+const z = 1;
+
+{
+    const z = 0
+    console.log('> existe z', z)
+    // mudando o escopo, ele funciona
+}
+
+console.log('> existe z depois do bloco?', z)
+
+</script>
