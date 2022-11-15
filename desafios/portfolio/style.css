@@ -19,7 +19,11 @@ main {
     margin: auto;
 }
 
-#profile {
+#profile, 
+#links,
+#my-projects,
+#recent-posts,
+#post {
     background-color: var(--card-color);
     color: var(--text-color);
     width: 348px;
@@ -29,6 +33,7 @@ main {
     margin: auto;
     margin-top: 40px;
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 #profile img {
@@ -50,31 +55,23 @@ main {
     margin-bottom: 49px;
 }
 
-#links {
-    background-color: var(--card-color);
-    color: var(--text-color);
-    width: 348px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 20px;
-}
-
 #links ul {
     list-style: none;
     margin: 34px auto;
 }
 
 #links li {
-    margin: 28px;
+    margin-bottom: 29px;
+}
+
+#links li:last-child {
+    margin-bottom: calc(34px - 29px);
 }
 
 #links img {
     position: relative;
     left: -10px;
-    top: 6px;
+    top: 7px;
     color: var(--text-color);
 }
 
@@ -83,3 +80,222 @@ main {
    color: var(--text-color);
    font-size: 13px;
 }
+
+#tecnologias,
+#experiencias,
+#educacao {
+    background-color: var(--card-color);
+    color: var(--text-color);
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#tecnologias h2, 
+#experiencias h2,
+#educacao h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#tecnologias ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 20px 30px;
+}
+
+#tecnologias li {
+    background-color: #CB92B1;
+    color: #000;
+    border-radius: 30px;
+    width: 86px;
+    height: 24px;
+
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#experiencias ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 20px;
+}
+
+#experiencias li {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+#educacao ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 20px;
+}
+
+#educacao li {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+#my-projects {
+    display: flex;
+    justify-content: center;
+    height: 86px;
+}
+
+#my-projects h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-details {
+    background-color: var(--card-color);
+    color: var(--text-color);
+    width: 348px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.project-details .folder img {
+    margin-left: 30px;
+
+    position: relative;
+    top: 5px;
+}
+
+.project-details .folder span {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+
+.project-details .folder p {
+    margin: 22px 30px;
+}
+
+.project-details .git {
+    display: inline-flex;
+}
+
+.project-details .git img {
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+}
+
+
+.project-details .git span {
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+.project-details .git span:first-child {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.project-details .git-tec {
+    display: flex;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.project-details .circle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #E7DE79;
+    border: 2px solid #837E9F;
+    margin-right: 8px;
+}
+
+.project-details .git-tec span {
+    margin-top: -3px;
+}
+
+#recent-posts {
+    display: flex;
+    justify-content: center;
+    height: 86px;
+}
+
+#recent-posts h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#post {
+    display: flex;
+    flex-direction: row;
+}
+
+#post img {
+    display: flex;
+    border-radius: 50%;
+    height: 75px;
+    margin-left: 30px;
+}
+
+#post-description {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#post-descripition h3 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#post-description p:nth-child(2) {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#post-description p:nth-child(3) {
+    margin-top: 28px;
+    font-size: 16px;
+}
+
+#post-description ul {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 11px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 19px auto;
+}
+
+
+
+
+
+
+
+
+
