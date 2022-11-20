@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    header {
+        margin-top: 207px;
+    }
+
+    #social-medias {
+        margin-bottom: 202px;
+    }
+}
