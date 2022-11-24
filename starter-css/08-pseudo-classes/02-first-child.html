@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Nesse caso não aplica, pois não há li first-child, quem se torna o first-child é o h3 -->
+    <ul>
+        <h3>LALALALALA</h3>
+        <li>Gratidão</li>
+        <li>Esperança</li>
+        <li>Fé</li>
+    </ul>
+
+    <!-- Nesse caso se aplica, pois o li é o primeiro filho da ul -->
+    <ul>
+        <li>Gratidão</li>
+        <li>Esperança</li>
+        <li>Fé</li>
+    </ul>
+</body>
+</html>
