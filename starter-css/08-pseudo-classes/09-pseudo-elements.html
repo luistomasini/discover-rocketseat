@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            position: relative;
+        }
+
+        li::before {
+            content: "> ";
+        }
+
+        li::after{
+            content: "";
+
+            width: 10px;
+            height: 1px;
+            background-color: blue;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        p::first-line {
+	        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Gratidão</li>
+        <li>Esperança</li>
+        <li>Fé</li>
+        <li>Liberdade</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolore, cumque nesciunt iure laudantium nam excepturi deserunt inventore culpa praesentium placeat ratione reiciendis tenetur! Numquam explicabo debitis odit tenetur perferendis!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium quisquam ex obcaecati reiciendis maxime! Quam ipsa fugiat, dolorum repellendus nobis, laborum quis atque voluptate perferendis veritatis possimus unde asperiores cupiditate?</p>
+</body>
+</html>
