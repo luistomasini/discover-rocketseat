@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            flex-direction: column;
+
+            border: 1px dashed red;
+        }
+
+        .box div {
+            border: 1px solid;
+
+            flex-basis: 100px;
+        }
+
+        .box div:nth-child(1) {
+            /* com flex-basis não definido em auto e sem alterar o eixo, não se aplica esse width */
+            width: 750px;
+            /* agora o height não é aplicado e o width sim, pois o eixo foi mudado */
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+</body>
+</html>
