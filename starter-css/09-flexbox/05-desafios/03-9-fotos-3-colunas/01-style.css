@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+img {
+    width: 30%;
+    height: 30%;
+    border: 1px solid;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    height: 95vh;
+}
+
+
+
+

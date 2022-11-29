@@ -1,0 +1,17 @@
+.box {
+    display: flex;
+    gap: 1rem;
+    height: 95vh;
+}
+
+.box div:nth-child(1) {
+    background-color: lightgray;
+    border: 1px solid;
+    flex-basis: 25%;
+}
+
+.box div:nth-child(2) {
+    background-color: lightgrey;
+    border: 1px solid;
+    flex-basis: 75%;
+}

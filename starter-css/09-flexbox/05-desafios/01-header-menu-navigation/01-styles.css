@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    gap: 0.8rem;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0.8rem;
+}
+
+nav {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.8rem;
+    margin-right: 0.8rem;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0.8rem;
+}
+
+button {
+    background-color: rgb(61, 61, 200);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    margin-left: 0.8rem;
+}
+
