@@ -1,7 +1,8 @@
 // Eventos
+// argumento event
 
 const input = document.querySelector('input')
 
-input.onkeyup = function() {
-    console.log('rodei')
+input.onkeydown = function(event) {
+    console.log(event.currentTarget.value)
 }
