@@ -1,0 +1,3 @@
+# PWD
+
+    - MOSTRAR O DIRETÓRIO ATUAL
