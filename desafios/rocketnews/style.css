@@ -21,19 +21,17 @@ html, body {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
     background-image: url('assets/read_news.jpg');
     background-size: cover;
     height: 100vh;
 }
 
-main article #logo img{
+main header img{
     width: 389px;
     height: 94px;
 }
 
-article {
+section {
     width: 50vw;
     z-index: 1;
     background-color: var(--body-bg-color);
