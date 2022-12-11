@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    font-family: 'League Spartan', sans-serif;
+    font-display: swap;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url('assets/read_news.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+main article #logo img{
+    width: 389px;
+    height: 94px;
+}
+
+article {
+    width: 50vw;
+    z-index: 1;
+    background-color: var(--body-bg-color);
+    height: 100vh;
+}
+
+
+
+
+
