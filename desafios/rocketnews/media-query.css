@@ -1,0 +1,32 @@
+@media screen and (min-width: 300px) and (max-width: 1200px ) {
+    :root {
+        --body-bg-color: #121214;
+        --text-color: #E1E1E6;
+        --title-color: #04D361;
+        --form-color: #A8A8A8;
+        --bg-button-color: #8257e5;
+    }
+    
+    main {
+        background-image: none;
+        background-color: var(--body-bg-color);
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 740px) {
+    section .landing-form input {
+        width: 400px;
+    }
+    
+    
+    section .landing-form button {
+        width: 47px;
+        height: 46px;
+        position: relative;
+        bottom: 30px;
+        left: 352px;
+        background-color: var(--bg-button-color);
+        border: none;
+    }
+}
+
