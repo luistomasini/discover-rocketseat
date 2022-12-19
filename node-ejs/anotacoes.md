@@ -4,6 +4,10 @@
 * npm i express
 * node server (para rodar o servidor)
 
+* criação de pasta views / pages (express já entende que as rotas estarão aqui)
+
+
+* Criação da pasta Partials para inclusão de parted do HTML em várias páginas.
 * EJS apenas - entre % é o comando que estou dando ao EJS.
   
 ```ejs
