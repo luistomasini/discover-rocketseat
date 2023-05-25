@@ -12,4 +12,4 @@ Porém, alguns objetos na programação não são fáceis de identificar, pois s
 - Autenticação
 - Autorização
 
-[Nem todo objeto do mundo real fará parte do seu sistema]
+[Nem todo objeto do mundo real fará parte do seu sistema!]
