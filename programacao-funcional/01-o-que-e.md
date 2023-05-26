@@ -13,7 +13,7 @@
 
 - Um dado (ou mais) entra em uma função e um novo dado sai dessa função
 - Não altera dados
-- Não guarda estado [stateless]
+- Não guarda estado **stateless**
 
 ## Linguagens funcionais
 
