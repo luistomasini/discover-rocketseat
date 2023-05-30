@@ -13,7 +13,7 @@ Abrindo o terminal, no caso esse é o do macOS:
 1. Digitamos `ssh-keygen`, para gerar a chave
 2. `-t rsa`, para dizer o tipo de encriptação
 3. `-b 4096`, a força da encriptação
-4. `-C "maykrbrito@gmail.com"`, o email que estamos criando, isso tudo na mesma linha,
+4. `-C "maykrbrito@gmail.com"`, o email que estamos criando, isso tudo na mesma linha
 5. Dando enter ele vai pedir algumas coisas que não precisamos, apenas dê enter.
 
 No windows precisaremos do Git instalado, ao instalar você terá um terminal diferente, que podemos criar a chave da mesma forma que no macOS.
