@@ -12,10 +12,10 @@ Para o windows é bem simples, abriremos o terminal, iniciaremos ssh agent no ba
 
 No mac há alguns processos a mais do que o windows, iremos começar com a mesma linha `eval "$(ssh-agent -s)"`, irá mostrar novamente o processo executado, então daremos um `.ssh/config`, veremos que não tem, então precisaremos dar um vim para criar, `vim ~/.ssh/config`, assim criamos o config, agora tudo que precisamos é copiar:
 
-`Host *`
-  `AddKeysToAgent yes`
-  `UseKeychain yes`
-  `IdentityFile ~/.ssh/id_rsa`
-Por fim copiaremos `ssh-add -K ~/.ssh/id_rsa.`
+- `Host *`
+- `AddKeysToAgent yes`
+- `UseKeychain yes`
+- `IdentityFile ~/.ssh/id_rsa`
+- Por fim copiaremos `ssh-add -K ~/.ssh/id_rsa.`
 
 Pronto assim sua máquina está funcionando junto com a do GitHub.
