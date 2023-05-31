@@ -25,6 +25,6 @@ Métodos considerados seguros são: GET, HEAD e OPTIONS.
 - O servidor tem a responsabilidade de retornar dados da mesma maneira
 - Essa especificação não é garantia de que todos os servidores irão aplicar o conceito corretamente.
 
-Os métodos idempotentes são todos métodos seguros e eles são: PUT e DELETE.
+Os métodos idempotentes são: GET, HEAD, PUT e DELETE.
 
 ![tabela de idempotentes](https://nordicapis.com/wp-content/uploads/Understanding-Idempotency-and-Safety-in-API-Design.png)
