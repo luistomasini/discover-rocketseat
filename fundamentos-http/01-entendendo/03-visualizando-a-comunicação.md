@@ -1,6 +1,6 @@
 # Visualizando a comunicação
 
-- **Descrição**
+## Descrição
 
 No protocolo HTTP tudo funciona com pedidos e respostas, que são chamados, em inglês, de ***Request*** e ***Response***. Nos dois casos, ele envia mensagens.
 
