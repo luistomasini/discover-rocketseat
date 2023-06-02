@@ -16,7 +16,7 @@ O Express é um framework de desenvolvimento web para Node.js. Ele fornece uma c
 
 ## Por que usar o Express?
 
-O Express é amplamente utilizado na comunidade Node.js devido à sua simplicidade, flexibilidade e robustez. Ele permite criar aplicativos web de forma rápida e eficiente, com uma curva de aprendizado suave.
+O ***Express*** é amplamente utilizado na comunidade Node.js devido à sua simplicidade, flexibilidade e robustez. Ele permite criar aplicativos web de forma rápida e eficiente, com uma curva de aprendizado suave.
 
 Com seu sistema de roteamento flexível, middleware poderoso e suporte a renderização de views e APIs, o Express é uma escolha popular para desenvolvedores que desejam construir aplicativos web escaláveis e robustos usando Node.js.
 
