@@ -8,7 +8,7 @@ app.route('/').get((req, res) => res.send("Hello!"))
 
 ```
 
-2.Se quisermos criar outra rota
+2.Se quisermos criar outra rota:
 
 ```js
 app.route('/sobre').get((req, res) => res.send("Hello! Sobre"))
