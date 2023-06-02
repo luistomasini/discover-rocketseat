@@ -10,4 +10,4 @@
    - `app.listen('3000')`
 6. No terminal, rode o comando `node index.js` ou `node .`(se no package.json em main o valor ser o mesmo do arquivo criado)
 
-Isso tudo pode ser também codado em um arquivo chamado ***server***. Porém pra fins dessa aula utilizaremos o index.js
+Isso tudo pode ser também codado em um arquivo chamado ***server***. Porém pra fins dessa aula utilizaremos o index.js.
