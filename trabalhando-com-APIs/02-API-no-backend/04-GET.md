@@ -18,6 +18,6 @@ app.route('/sobre').get((req, res) => res.send("Hello! Sobre"))
 
 `node .` ou `node index.js`
 
-Obs.: A cada vez que fizermos uma alteração é necessário que se reinicialize o servido. Para parar o servidor no terminal, utilizamos "Ctrl+C" e rodamos o código acima novamente.
+Obs.: A cada vez que fizermos uma alteração é necessário que se reinicialize o servidor. Para parar o servidor no terminal, utilizamos "Ctrl+C" e rodamos o código acima novamente.
 
-Agora você pode acessar a URL localhost:3000 em seu navegador para visualizar a resposta "Olá, mundo!"
+Agora você pode acessar a URL localhost:3000 em seu navegador para visualizar a resposta "Hello!"
