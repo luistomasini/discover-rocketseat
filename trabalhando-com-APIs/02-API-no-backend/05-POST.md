@@ -43,4 +43,4 @@ app.route('/').post((req,res) => res.send(req.body))
 ```
 
 Pronto:
-![resposta-insomnia]('C:\Usuario\Luis/Paulo\Imagens\resposta-insomnia.jpg')
+![resposta-insomnia]('C:\Usuários\Luis/Paulo\Imagens\resposta-insomnia.jpg')
