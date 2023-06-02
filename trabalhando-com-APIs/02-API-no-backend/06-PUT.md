@@ -1,6 +1,6 @@
 # PUT
 
-1.Crie uma nova requisicção no Insomnia com o nome PUT e o mude o método também para PUT.
+1.Crie uma nova requisição no Insomnia com o nome PUT e o mude o método também para PUT.
 
 2.O PUT serve para editar informações. Criaremos uma nova variável:
 
