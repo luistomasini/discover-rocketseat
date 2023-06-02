@@ -41,6 +41,3 @@ Nesse comando utilizamos a função use do Express e passamos como parâmetros o
 ``` js
 app.route('/').post((req,res) => res.send(req.body))
 ```
-
-Pronto:
-![resposta-insomnia]('C:\Usuários\Luis/Paulo\Imagens\resposta-insomnia.jpg')
