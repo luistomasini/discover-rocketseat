@@ -4,6 +4,7 @@ const app = express()
 
 app.listen('3000')
 
-app.route('/:identificador').delete((req,res) => {
-    res.send(req.params.identificador)
-})
+app.use(express.json())
+
+app.route('/').get((req,res) => res.send(req.query))
+app.route('/about/user').get((req,res) => res.send(req.query))
