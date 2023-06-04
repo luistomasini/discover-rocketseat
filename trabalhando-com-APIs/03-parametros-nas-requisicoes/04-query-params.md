@@ -20,6 +20,6 @@ app.route('/about').get((req,res) => res.send(req.query))
 app.route('/about/user').get((req,res) => res.send(req.query.id))
 ```
 
-1. A variável é criada na própria requisição e não por parâmetros. Diversas varriáveis podem ser criadas com o "&" separando as mesmas.
+1. A variável é criada na própria requisição e não por parâmetros. Diversas variáveis podem ser criadas com o "&" separando as mesmas.
 2. A segunda rota segue a mesma lógica dos route params.
 3. Aqui utilizamos o ".id" para buscarmos exatamente pela query "?id=valor". Caso seja buscado algo diferente, a rota não é encontrada gerando erro. Se a busca for por "?id=valor" mais alguma query, só teremos como retorno o id.
