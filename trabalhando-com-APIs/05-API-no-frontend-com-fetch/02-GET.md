@@ -41,7 +41,7 @@ fetch(url)
    - `then(data => renderApiResult.textContent = JSON.stringfy(data)`
 **Aqui ele traz o objeto inteiro**
 
-1.  Executamos a função `getUsers()`
+10. Executamos a função `getUsers()`
 
 ### Trazendo dados únicos
 
