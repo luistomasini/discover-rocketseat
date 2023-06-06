@@ -25,7 +25,7 @@ fetch(url)
 
 3. Criaremos um arquivo "main.js"
 
-4. Dentro do arquivo js, criaremos uma constante para a URL da API porque utilizaremos em diversos lugares: ```js const url = "http://localhost:5500/api"``` que é a URL do nosso API.
+4. Dentro do arquivo js, criaremos uma constante para a URL da API porque utilizaremos em diversos lugares: ```const url = "http://localhost:5500/api"``` que é a URL do nosso API.
 
 5. Nesse momento criaremos a seguinte função `function getUsers() { fetch(url) }`. Com essa função, o fetch já está buscando o conteúdo na API.
   
@@ -41,7 +41,7 @@ fetch(url)
    - `then(data => renderApiResult.textContent = JSON.stringfy(data)`
 **Aqui ele traz o objeto inteiro**
 
-10. Executamos a função `getUsers()`
+1.  Executamos a função `getUsers()`
 
 ### Trazendo dados únicos
 
