@@ -17,8 +17,51 @@ fetch(url)
   });
 ```
 
-Nesse exemplo, substitua a variável url pela URL da API que você deseja fazer a requisição GET. O método fetch retorna uma Promise que representa a resposta da requisição. Podemos encadear chamadas .then para lidar com a resposta e acessar os dados retornados. Utilizamos o método .json() para transformar a resposta em um objeto JSON.
+## Prática
 
-Caso ocorra algum erro na requisição, podemos utilizar o método .catch para tratá-lo.
+1. Criaremos um arquivo HTML "index.html", criaremos uma div com o `id="renderApiResult"`.
 
-Essa é uma maneira básica de utilizar o método GET com Fetch em JavaScript para obter dados de uma API. É importante lembrar que o Fetch é compatível com a maioria dos navegadores modernos.
+2. Utilizaremos o **LiveServer** no *VSCode* para visualizarmos as mudanças em tempo real
+
+3. Criaremos um arquivo "main.js"
+
+4. Dentro do arquivo js, criaremos uma constante para a URL da API porque utilizaremos em diversos lugares: ```js const url = "http://localhost:5500/api"``` que é a URL do nosso API.
+
+5. Nesse momento criaremos a seguinte função `function getUsers() { fetch(url) }`. Com essa função, o fetch já está buscando o conteúdo na API.
+  
+6. Para pegar o conteúdo no código:
+   - `.then(response => console.log(response.json()))`
+   - `.catch(error => console.error(error))` Só mostrará erro se o erro acontecer no fetch.
+
+7. Chamamos o script no HTML com `<script src="main.js"></script>`
+
+8. Verificamos no console do DevTools que realmente ele está trazendo a promessa, agora precisamos mostrar o conteúdo no front-end.
+
+9. Criamos um novo *then* logo em seguida do primeiro *then*:
+   - `then(data => renderApiResult.textContent = JSON.stringfy(data)`
+**Aqui ele traz o objeto inteiro**
+
+10. Executamos a função `getUsers()`
+
+### Trazendo dados únicos
+
+1. No html criamos mais essas tags:
+   - `<hr>`
+   - `<p id="userName"></p>`
+   - `<p id="userCity"></p>`
+   - `<img src="" id="userAvatar">`
+
+2. Criaremos e executaremos a função:
+
+```js
+   function getUser() {
+    fetch(`${url}/1`)
+    .then(response => response.json())
+    .then(data => {
+        userName.textContent = data.name
+        userCity.textContent = data.city
+        userAvatar.src = data.avatar
+    })
+    .catch(error => console.error(error))
+}
+```
