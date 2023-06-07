@@ -55,4 +55,5 @@ Exemplo de um trecho de código JSX:
 
     export default App
     ```
+
 **Obs.: na importação de um arquivo JSX não precisamos colocar a extensão.**
