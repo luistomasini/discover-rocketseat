@@ -6,6 +6,8 @@
 
 📁 src - Pasta principal onde ficará todos os nossos arquivos.
 
+📁 pages - para mantermos organização dos componentes da app.
+
 <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" width="15"> App.css - Arquivo de estilização do App.jsx App.jsx - Página inicial do nosso projeto que será exibida no navegador.
 
 
@@ -21,4 +23,4 @@
 <img src="https://cdn-icons-png.flaticon.com/128/6577/6577158.png" width="20"> package-lock.json - Parecido com o package.json, esse arquivo descreve as características das dependências do projeto como versão, integridade dos links e muito mais.
 
 
-<img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" width="20"> vite.config.js - Arquivo de configuração do Vite.
+<img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" width="15"> vite.config.js - Arquivo de configuração do Vite.
