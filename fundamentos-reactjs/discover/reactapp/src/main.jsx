@@ -1,15 +1,15 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 
 import './styles/global.css'
 
 import { Home } from './pages/Home'
 
+const container = document.getElementById('root')
+const root = createRoot(container)
 
-
-ReactDOM.render(
+root.render(
   <React.StrictMode>
     <Home />
-  </React.StrictMode>,
-  (document.getElementById('root'))
+  </React.StrictMode>
 )

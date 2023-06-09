@@ -1,5 +1,7 @@
 # Estado
 
+O estado em ReactJS é como uma caixa onde você pode armazenar e gerenciar informações sobre o seu aplicativo. É como uma memória temporária que guarda valores que podem mudar ao longo do tempo. Você pode atualizar e acessar o estado para mostrar informações atualizadas na interface do usuário.
+
 O Hook useState permite ter variáveis em componentes funcionais. Você passa o estado inicial para esta função e ele retorna uma variável com o valor atual do estado (não necessariamente o estado inicial).
 
 ```jsx
