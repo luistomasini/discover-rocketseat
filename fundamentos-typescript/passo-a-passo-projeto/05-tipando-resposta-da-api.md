@@ -35,5 +35,5 @@ useEffect(() => {
 E modificar o nosso estado:
 
 ```tsx
-const [students, setStudents] = useState<CardProps[]>([]);
+const [user, setUser] = useState<User>({} as User);
 ```
