@@ -20,6 +20,6 @@ Passo a passo e elementos mais importantes no Github:
     5.1 Require approvals (Define quantas aprovações são necessárias)
 6. Require status checks to pass before merging (ferramenta do Github que faz análises no código para verificação de erros)
 7. Require conversation resolution before merging (Condiciona a aprovação do pull request mediante discussão em comentários)
-8. Include Administrators (Adminsitradores podem fazer o merge sem a necessidade das aprovações requeridas)
+8. Do not allow bypassing the above settings (Administradores são submetidos as regras de proteção inseridas)
 9. Allow push force (Push forçado mesmo com conflitos)
 10. Allow deletions (Permitir apagar as branchs depois do merge)

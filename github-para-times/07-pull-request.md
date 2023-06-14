@@ -4,10 +4,17 @@
 - O pull request permite que os colaboradores revisem, discutam e forneçam feedback sobre as alterações propostas antes de serem mescladas na branch de destino.
 - É uma forma de colaboração e revisão de código que ajuda a garantir a qualidade e integridade das alterações no repositório.
 
-Como usar o Pull Request com a CLI:
-1. Crie uma nova branch para trabalhar nas suas alterações usando o comando `git checkout -b nome-da-branch`.
-2. Faça commits das suas alterações usando o comando `git commit -m "mensagem do commit"`.
-3. Envie sua branch local para o repositório remoto usando o comando `git push origin nome-da-branch`.
-4. No repositório remoto, use a CLI para criar um pull request para mesclar sua branch com a branch de destino. O comando pode variar dependendo da CLI que você está usando, mas geralmente é algo como `gh pr create` ou `hub pull-request`.
-5. Forneça informações sobre as alterações propostas, como título e descri
+Como usar o Pull Request no GitHub:
+1. Acesse o repositório no GitHub.
+2. Certifique-se de estar na branch correta em que você fez as alterações.
+3. Clique no botão "New Pull Request" ou similar.
+4. Selecione a branch de origem (sua branch com as alterações) e a branch de destino (geralmente a "main").
+5. Forneça um título e uma descrição para o pull request, explicando as alterações propostas.
+6. Clique em "Create Pull Request" para abrir o pull request.
+7. Aguarde a revisão e feedback dos colaboradores.
+8. Durante a revisão, você pode fazer alterações adicionais na sua branch e elas serão atualizadas automaticamente no pull request.
+9. Os colaboradores podem adicionar comentários, aprovar ou solicitar alterações no pull request.
+10. Uma vez que o pull request seja aprovado, o mantenedor do repositório pode mesclar as alterações clicando no botão "Merge" ou similar.
+11. Após a mesclagem, o pull request é considerado concluído e suas alterações estão incorporadas na branch de destino.
+
 
